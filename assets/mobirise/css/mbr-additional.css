@@ -860,3 +860,96 @@ h6,
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 }
+
+
+
+
+
+#header3-1y .mbr-section-title,
+#header3-1y .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1y .mbr-section-title {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 36px;
+}
+#content1-1z P {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+#ext_menu-1v .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-1v .navbar-caption {
+  color: #ffffff;
+}
+#ext_menu-1v .navbar-toggler {
+  color: #ffffff;
+}
+#ext_menu-1v .close-icon::before,
+#ext_menu-1v .close-icon::after {
+  background-color: #ffffff;
+}
+#ext_menu-1v .link,
+#ext_menu-1v .dropdown-item {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+#ext_menu-1v .link {
+  font-size: 0.65rem;
+}
+#ext_menu-1v .dropdown-item,
+#ext_menu-1v .nav-dropdown-sm .link {
+  font-size: 0.704rem;
+}
+#ext_menu-1v .link:hover,
+#ext_menu-1v .dropdown-item:hover,
+#ext_menu-1v .link:focus,
+#ext_menu-1v .dropdown-item:focus {
+  color: #ffffff;
+}
+#ext_menu-1v .link[aria-expanded="true"],
+#ext_menu-1v .dropdown-menu {
+  background: #1b1b1b;
+}
+#ext_menu-1v .nav-dropdown-sm .link:focus,
+#ext_menu-1v .nav-dropdown-sm .link:hover,
+#ext_menu-1v .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-1v .nav-dropdown-sm .dropdown-item:hover {
+  background: #2d2c2c!important;
+}
+#ext_menu-1v .navbar,
+#ext_menu-1v .nav-dropdown-sm,
+#ext_menu-1v .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-1v .nav-dropdown-sm .dropdown-menu {
+  background: #353434;
+}
+#ext_menu-1v .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#ext_menu-1v .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-1v .bg-color.transparent.opened .link:hover,
+#ext_menu-1v .bg-color.transparent.opened .link:focus {
+  color: #ffffff;
+}
+#ext_menu-1v .link[aria-expanded="true"],
+#ext_menu-1v .dropdown-item[aria-expanded="true"] {
+  color: #ffffff!important;
+}
+#contacts1-1w P {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+#contacts1-1w B {
+  font-size: 15px;
+}
+#contacts1-1w STRONG {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
