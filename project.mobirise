@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-16_1716",
-    "currentPage": "page5.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -23,16 +23,22 @@
       "additionalSetColors": [
         "#2d2b2b",
         "#353434",
-        "#2e2e2e"
+        "#2e2e2e",
+        "#232323",
+        "#e6e3e3",
+        "#1fab96"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 72,
-    "versionPublish": "4.7.2",
+    "uniqCompNum": 95,
+    "versionPublish": "4.7.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/bbsf-100x100.png",
-    "noImageResize": ""
+    "noImageResize": "",
+    "siteFonts": [],
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
   },
   "pages": {
     "index.html": {
@@ -51,7 +57,7 @@
             "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "showBullets": true,
+            "showBullets": false,
             "bgColor": "#fff",
             "timeout": 5,
             "slides": [
@@ -268,7 +274,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "14px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -282,10 +289,10 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -311,6 +318,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#ffffff!important"
+            },
+            "A": {
+              "font-size": "11px"
             }
           },
           "logo": {
@@ -339,7 +349,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#c1c1c1",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -355,12 +365,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "40",
+              "size": "10",
               "active": true,
-              "color": "#ffffff"
+              "color": "#2d2b2b"
             }
           },
-          "text1": "<strong><br></strong><b>Redes sociales</b><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\">Facebook&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\">Instagram</a><br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\">Twitter</a>",
+          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -373,16 +383,18 @@
               "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "12px"
+              "font-size": "12px",
+              "color": "#353434"
             },
             "B": {
-              "font-size": "15px"
+              "font-size": "13px",
+              "color": "#000000"
             },
             "STRONG": {
-              "color": "#ffffff",
+              "color": "#353434",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "15px"
+              "font-size": "13px"
             }
           }
         },
@@ -394,17 +406,25 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#353434",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-</b>&nbsp;<i><a href=\"page5.html\" style=\"font-weight: bold;\">Aviso legal</a><b>&nbsp;-</b></i>",
+          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<i><a href=\"page5.html\" class=\"text-primary\">Aviso legal</a>&nbsp;-</i>",
           "_tags": [
             "Tema"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-v"
+          "_anchor": "footer1-v",
+          "_styles": {
+            "I": {
+              "font-size": "8px"
+            },
+            "P": {
+              "font-size": "10px"
+            }
+          }
         }
       ]
     },
@@ -412,7 +432,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Contacto",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -504,7 +524,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "14px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -518,10 +539,10 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -547,6 +568,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#ffffff!important"
+            },
+            "A": {
+              "font-size": "11px"
             }
           },
           "logo": {
@@ -575,17 +599,25 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#353434",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-</b>&nbsp;<i><a href=\"page5.html\" style=\"font-weight: bold;\">Aviso legal</a><b>&nbsp;-</b></i>",
+          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<i><a href=\"page5.html\" class=\"text-primary\">Aviso legal</a>&nbsp;-</i>",
           "_tags": [
             "Tema"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-v"
+          "_anchor": "footer1-v",
+          "_styles": {
+            "I": {
+              "font-size": "8px"
+            },
+            "P": {
+              "font-size": "10px"
+            }
+          }
         },
         {
           "_params": {
@@ -595,7 +627,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#c1c1c1",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -611,12 +643,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "40",
+              "size": "10",
               "active": true,
-              "color": "#ffffff"
+              "color": "#2d2b2b"
             }
           },
-          "text1": "<strong><br></strong><b>Redes sociales</b><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\">Facebook&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\">Instagram</a><br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\">Twitter</a>",
+          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -629,805 +661,20 @@
               "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "12px"
+              "font-size": "12px",
+              "color": "#353434"
             },
             "B": {
-              "font-size": "15px"
+              "font-size": "13px",
+              "color": "#000000"
             },
             "STRONG": {
-              "color": "#ffffff",
+              "color": "#353434",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "15px"
+              "font-size": "13px"
             }
           }
-        }
-      ]
-    },
-    "page2.html": {
-      "settings": {
-        "meta_descr": "Website Generator Description",
-        "title": "Arquitectura",
-        "order": 5
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".lead P": {
-              "text-align": "left"
-            },
-            ".mbr-section-title P": {
-              "text-align": "center",
-              "font-size": "46px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButton": false,
-            "paddingTop": "4",
-            "paddingBottom": "3",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/2016-08-03-13.34.59-2000x1125.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.6"
-          },
-          "title": "<p>Arquitectura</p>",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-1d"
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/17-1-600x383.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "page4.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/dsc-2708-600x400.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/pasillo-1-600x450.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/dsc00068-1-600x450.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "<a href=\"page4.html\" class=\"text-black\">S</a>olaz",
-          "subtitle1": "<span style=\"font-style: normal;\">Reforma de apartamento (México)</span>",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "<span style=\"font-style: normal;\">One of Bootstrap 4's big points</span>",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "<span style=\"font-style: normal;\">Google has a highly exhaustive list of fonts</span>",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "<span style=\"font-style: normal;\">Mobirise gives you the freedom to develop</span>",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-17",
-          "_styles": {
-            "H4": {
-              "text-align": "left"
-            },
-            "H5": {
-              "text-align": "left",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            },
-            "SPAN": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": false,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/table.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-18",
-          "_styles": {
-            "H4": {
-              "text-align": "left"
-            },
-            "H5": {
-              "text-align": "left"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/table.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-19"
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/table.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-1a"
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/table.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-1b"
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/table.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features3",
-          "_anchor": "features3-1c"
-        },
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "bgColor": "#353434",
-            "fontSize": "0.65",
-            "fontName": {
-              "name": "Roboto",
-              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "css": "'Roboto', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFICINA</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">&gt; Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">&gt; Reconocimientos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\" aria-expanded=\"false\">&gt; Contacto</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROYECTOS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">&gt; Arquitectura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">&gt; Diseño interior</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\" aria-expanded=\"false\">&gt; Diseño Urbano</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\" aria-expanded=\"false\">&gt; Proyectos Efímeros</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">NOTICIAS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
-          "_tags": [
-            "Tema"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-family": "'Roboto', sans-serif"
-            },
-            ".link": {
-              "font-size": "0.6rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1b1b1b"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2d2c2c!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#353434"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#ffffff!important"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">bandada! studio</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-s"
         }
       ]
     },
@@ -1435,9 +682,43 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Nosotros",
-        "order": 3
+        "order": 2
       },
       "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/foto-despacho-2000x1125.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.5"
+          },
+          "title": "Nosotros",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-25",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "100px"
+            }
+          }
+        },
         {
           "_inherit": "menu",
           "_params": {
@@ -1466,7 +747,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "14px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1480,10 +762,10 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1509,6 +791,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#ffffff!important"
+            },
+            "A": {
+              "font-size": "11px"
             }
           },
           "logo": {
@@ -1534,39 +819,132 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/foto-despacho-2000x1125.jpg",
+            "inverse": true,
+            "imageSize": "55",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.6"
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
-          "title": "Nosotros",
-          "text": "<span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">Somos una oficina de arquitectura dirigida por Iván Valero</span><span style=\"font-style: normal;\">&nbsp;que desde 2011 ha  desarrollado proyectos de diferentes tipologías, escalas y materialidades entre España y México entendiendo esa diversidad como un estímulo intelectual y una oportunidad de investigar y evolucionar la calidad de nuestros diseños.&nbsp;</span><br><br><span style=\"font-style: normal;\">Tratamos ante todo de lograr una lógica funcional precisa y eficiente que permita aprovechar al máximo los recursos económicos, espaciales y naturales de cada lugar y cliente y lograrlo siempre con <b>una respuesta bella</b>.</span><span style=\"font-style: normal;\"><br></span><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/wdwdfefef-960x834.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Filosofía<br>",
+          "text": "Cada proyecto, cada circunstancia y cada contexto son únicos y por ello solo entendemos una forma de afrontarlos: generando también <i>respuestas únicas</i>. <br><br>Ninguno de nuestros proyectos se parece al resto de nuestros proyectos. Cada uno de ellos es el fruto de un análisis personalizado, preciso y riguroso de las altarnativas posibles hasta llegar la <i>respuesta extraordinaria</i>.<br>\n<br>Buscamos lograr una lógica funcional que sea precisa, eficiente y ecológica para aprovechar al máximo los recursos de cada lugar y cliente pero es imprescindible para nosotros que se resuelva meidante una <i>respuesta bella</i>.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"assets/files/CV%20web.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Descargar CV</a>",
           "_tags": [
-            "Tema"
+            "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-1j",
+          "_name": "msg-box5",
           "_styles": {
-            ".mbr-section-title": {
+            "H3": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "60px",
               "text-align": "left"
             },
-            ".mbr-section-lead": {
+            "P": {
               "text-align": "left",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-size": "16px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
-          }
+          },
+          "_anchor": "msg-box5-24"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "55",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/23755431-1572281606187310-1843625020495011406-n-960x834.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Premios<br>",
+          "text": "Diferentes instituciones han reconocido el valor de nuestro trabajo con reconocimientos, premios o menciones lo que nos reafirma en nuestra idea sobre cómo hacer arquitectura y en nuestro método de trabajo.&nbsp;<br><br>Emtre los reconocimientos destacados están",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"assets/files/CV%20web.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Listado completo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "60px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "16px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_anchor": "msg-box5-26"
         },
         {
           "_params": {
@@ -1634,17 +1012,25 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#353434",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-</b>&nbsp;<i><a href=\"page5.html\" style=\"font-weight: bold;\">Aviso legal</a><b>&nbsp;-</b></i>",
+          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<i><a href=\"page5.html\" class=\"text-primary\">Aviso legal</a>&nbsp;-</i>",
           "_tags": [
             "Tema"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-v"
+          "_anchor": "footer1-v",
+          "_styles": {
+            "I": {
+              "font-size": "8px"
+            },
+            "P": {
+              "font-size": "10px"
+            }
+          }
         },
         {
           "_params": {
@@ -1654,7 +1040,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#c1c1c1",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -1670,12 +1056,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "40",
+              "size": "10",
               "active": true,
-              "color": "#ffffff"
+              "color": "#2d2b2b"
             }
           },
-          "text1": "<strong><br></strong><b>Redes sociales</b><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\">Facebook&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\">Instagram</a><br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\">Twitter</a>",
+          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -1688,16 +1074,18 @@
               "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "12px"
+              "font-size": "12px",
+              "color": "#353434"
             },
             "B": {
-              "font-size": "15px"
+              "font-size": "13px",
+              "color": "#000000"
             },
             "STRONG": {
-              "color": "#ffffff",
+              "color": "#353434",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "15px"
+              "font-size": "13px"
             }
           }
         }
@@ -1707,7 +1095,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "SOLAZ",
-        "order": 2
+        "order": 4
       },
       "components": [
         {
@@ -1738,7 +1126,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "14px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1752,10 +1141,10 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1781,6 +1170,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#ffffff!important"
+            },
+            "A": {
+              "font-size": "11px"
             }
           },
           "logo": {
@@ -1847,16 +1239,19 @@
             },
             ".mbr-section-title": {
               "text-align": "left"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "color": "#353434"
             }
           },
           "_params": {
             "showMeta": true,
             "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#efefef"
+            "paddingBottom": "0",
+            "bgColor": "#cccccc"
           },
           "title": "Solaz",
-          "meta": "<span style=\"font-style: normal;\">Ampliación de Apartamento en Ciudad de México</span><br><span style=\"font-style: normal;\"><br></span>",
+          "meta": "<span style=\"font-style: normal;\">Ampliación de Apartamento</span><br><span style=\"font-style: normal;\"><br></span>",
           "_tags": [
             "Tema"
           ],
@@ -1865,18 +1260,24 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "0",
             "paddingBottom": 1,
-            "bgColor": "#efefef"
+            "bgColor": "#cccccc"
           },
-          "text1": "<p><b>Año:</b> 2017\n</p><p><b>Estado:</b> Construido\n</p><p><b>Localización:</b> Del Valle, México</p><p></p><p>\n</p><p><br></p><p><b>Arquitecto:</b>&nbsp;Iván Valero&nbsp;\n</p><p></p><p>\n</p><p><b>Iluminación</b>: Rita Perez&nbsp;</p><p><b>Fotos:</b> Yaatzil Ceballos</p><p><b>Construcción:</b> Factor Eficiencia.</p><p>_ _</p><p><br></p>",
+          "text1": "<p><b>Año:</b> 2017\n</p><p><b>Estado:</b> Construido\n</p><p><b>Localización:</b> Del Valle, Ciudad de México</p><p></p><p>\n</p><p><br></p><p><b>Arquitecto:</b>&nbsp;Iván Valero&nbsp;\n</p><p></p><p>\n</p><p><b>Iluminación</b>: Rita Perez&nbsp;</p><p><b>Fotos:</b> Yaatzil Ceballos</p><p><b>Construcción:</b> Factor Eficiencia.</p><p>_ _</p><p><br></p>",
           "text2": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
           "text3": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
           "_tags": [
             "Tema"
           ],
           "_name": "content7",
-          "_anchor": "content7-1u"
+          "_anchor": "content7-1u",
+          "_styles": {
+            "P": {
+              "font-size": "12px",
+              "color": "#232323"
+            }
+          }
         },
         {
           "_inherit": "gallery1",
@@ -2053,7 +1454,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#c1c1c1",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -2069,12 +1470,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "40",
+              "size": "10",
               "active": true,
-              "color": "#ffffff"
+              "color": "#2d2b2b"
             }
           },
-          "text1": "<strong><br></strong><b>Redes sociales</b><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\">Facebook&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\">Instagram</a><br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\">Twitter</a>",
+          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -2087,16 +1488,18 @@
               "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "12px"
+              "font-size": "12px",
+              "color": "#353434"
             },
             "B": {
-              "font-size": "15px"
+              "font-size": "13px",
+              "color": "#000000"
             },
             "STRONG": {
-              "color": "#ffffff",
+              "color": "#353434",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "15px"
+              "font-size": "13px"
             }
           }
         },
@@ -2108,17 +1511,25 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#353434",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-</b>&nbsp;<i><a href=\"page5.html\" style=\"font-weight: bold;\">Aviso legal</a><b>&nbsp;-</b></i>",
+          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<i><a href=\"page5.html\" class=\"text-primary\">Aviso legal</a>&nbsp;-</i>",
           "_tags": [
             "Tema"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-v"
+          "_anchor": "footer1-v",
+          "_styles": {
+            "I": {
+              "font-size": "8px"
+            },
+            "P": {
+              "font-size": "10px"
+            }
+          }
         }
       ]
     },
@@ -2126,7 +1537,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Aviso Legal",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -2145,7 +1556,7 @@
             "showMeta": true,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#cccccc"
+            "bgColor": "#f7da64"
           },
           "title": "Aviso Legal y Política de Privacidad",
           "meta": "",
@@ -2158,8 +1569,8 @@
         {
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#cccccc"
+            "paddingBottom": "2",
+            "bgColor": "#f7da64"
           },
           "text": "<p>Para dar cumplimiento con lo establecido en la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico, a continuación se indican los datos de información general de este sitio web:<br></p><p><b><br></b></p><p><b>Titular</b>: Bandada Arquitectura SA de CV</p><p><b>Dirección</b>: Calle Córdoba 234, int. 7 colonia Roma Norte</p><p><b>Contacto</b>: Email: laura.domenech@bandada-studio.com Teléfono: (+52) 55 2343 5840 &nbsp;// &nbsp;(+34) 616 29 73 40</p><p><b>Datos Registrales</b>: Corredor Público Eduardo Arce Gargollo, Póliza número 2332, Libro número 2 de actas y pólizas, Ciudad de México</p><p><b>RFC</b>: BAR140212831\n</p><p><b>Web</b>: http://www.bandada-studio.com</p><p><br></p><p><br></p><p>\n</p><p>\n</p><p><b>Sobre la Propiedad Legal y el Copyright.</b></p><p><b><br></b></p><p><b>\n</b></p><p>El propietario de esta web y su contenido es la empresa Bandada Arquitectura SA de CV. en adelante Bandada. Queda prohibida la transmisión, cesión, venta, alquiler y/o exposición pública de esta web sin la correspondiente autorización de sus dueños, salvo para su publicación en blogs, foros y revistas en Internet donde se especifique su autor. La información y consejos presentados en esta web son de carácter orientativos quedando Bandada exenta de cualquier responsabilidad derivada de la falta de exactitud o efectividad en dicha información o consejos.</p><p><br></p><p>\n</p><p>\n</p><p>Bandada se reserva el derecho de modificar el contenido de la web sin previo aviso y sin ningún tipo de limitación. La información remitida a esta web o introducida a través de sus formularios deberá ser veraz y no vulnerará el derecho a terceros ni la legalidad vigente.</p><p><br></p><p>\n</p><p>\n</p><p>Bandada declina cualquier responsabilidad contractual o extracontractual con la persona o empresa que tuviera perjuicios de cualquier naturaleza ocasionados por virus informáticos o por elementos informáticos de cualquier índole al no poder garantizar al 100% la ausencia de virus ni de otros elementos en la web.</p><p><br></p><p><br></p><p>\n</p><p>\n</p><p><b>Condiciones de Utilización de la Web.</b></p><p><b><br></b></p><p><b>\n</b></p><p>Bandada ofrece en su web información relacionada con el tipo de actividad, productos y servicios que realiza. Bandada se reserva el derecho a actualizar, modificar o eliminar la información contenida en www.bandada-studio.com pudiendo limitar o no permitir el acceso a dicha información.</p><p><br></p><p><br></p><p>\n</p><p>\n</p><p><b>Política de Protección de Datos Personales.</b></p><p><br></p><p>Algunos servicios prestados en la web pueden contener condiciones particulares con previsiones específicas en materia de protección de Datos Personales. Los datos personales recogidos serán objeto de tratamiento automatizado e incorporados a los correspondientes ficheros automatizados.</p><p><br></p><p>\n</p><p>\n</p><p>El usuario garantiza que los datos personales facilitados a Bandada son veraces y se hace responsable de comunicar cualquier modificación en los mismos. La recogida y tratamiento automatizado de los datos personales tiene como finalidad el mantenimiento de la relación contractual con Bandada, la gestión, administración, prestación, ampliación y mejora de los servicios en los que el usuario decida darse de alta, así como el envío por medios tradicionales y electrónicos, de información técnica, operativa y comercial acerca de productos y servicios ofrecidos por Bandada. Los usuarios tienen derechos reconocidos y podrán ejercitar los derechos de acceso, cancelación, rectificación y oposición, así como a ser informados de las cesiones realizadas contactando con Bandada.</p><p><br></p><p><br></p><p>\n</p><p>\n</p><p><b>Analítica Web.</b></p><p><b><br></b></p><p><b>\n</b></p><p>Esta página web utiliza Google Analytics, un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”).</p><p><br></p><p>\n</p><p>\n</p><p>Google Analytics utiliza “cookies”, que son archivos de texto ubicados en su ordenador, para ayudar al website a analizar el uso que hacen los usuarios del sitio web. La información que genera la cookie acerca de su uso del website (incluyendo su dirección IP) será directamente transmitida y archivada por Google en los servidores de Estados Unidos. Google usará esta información por cuenta nuestra con el propósito de seguir la pista de su uso del website, recopilando informes de la actividad del website y prestando otros servicios relacionados con la actividad del website y el uso de Internet.</p><p><br></p><p>\n</p><p>\n</p><p>Google podrá transmitir dicha información a terceros cuando así se lo requiera la legislación, o cuando dichos terceros procesen la información por cuenta de Google. Google no asociará su dirección IP con ningún otro dato del que disponga Google.</p><p><br></p><p>\n</p><p>\n</p><p>Puede Usted rechazar el tratamiento de los datos o la información rechazando el uso de cookies mediante la selección de la configuración apropiada de su navegador, sin embargo, debe Usted saber que si lo hace puede ser que no pueda usar la plena funcionabilidad de este website.</p><p><br></p><p>\n</p><p>\n</p><p>Al utilizar este website Usted consiente el tratamiento de información acerca de Usted por Google en la forma y para los fines arriba indicado.</p>",
           "_tags": [
@@ -2203,7 +1614,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "14px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -2246,6 +1658,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#ffffff!important"
+            },
+            "A": {
+              "font-size": "11px"
             }
           },
           "logo": {
@@ -2274,7 +1689,579 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#c1c1c1",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "letter",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "10",
+              "active": true,
+              "color": "#2d2b2b"
+            }
+          },
+          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
+          "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
+          "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "12px",
+              "color": "#353434"
+            },
+            "B": {
+              "font-size": "13px",
+              "color": "#000000"
+            },
+            "STRONG": {
+              "color": "#353434",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "13px"
+            }
+          },
+          "_anchor": "contacts1-1w"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#353434",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<i><a href=\"page5.html\" class=\"text-primary\">Aviso legal</a>&nbsp;-</i>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1x",
+          "_styles": {
+            "I": {
+              "font-size": "8px"
+            },
+            "P": {
+              "font-size": "10px"
+            }
+          }
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "Arquitectura",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead P": {
+              "text-align": "left"
+            },
+            ".mbr-section-title P": {
+              "text-align": "center",
+              "font-size": "46px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "color": "#efefef"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2016-08-03-13.34.59-2000x1125.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": "0.5"
+          },
+          "title": "<p>Arquitectura</p>",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-2j"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/2-600x900.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/foto-600x900.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/142672173-4-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/port-600x900.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Solaz",
+          "subtitle1": "Ampliación de ático (Mx)",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Futura CDMX",
+          "subtitle2": "Museo en edificio histórico (Mx)",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Hostal Casa Pepe",
+          "subtitle3": "Renovación de edificio histórico (Mx)",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "El CENDI",
+          "subtitle4": "Nueva guardería pública (Mx)",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2i"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fot-600x900.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dsc00059-1-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bandada-studio-ivan-valero-1402-57-600x899.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/port-1-600x900.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Kassandra Beach House",
+          "subtitle1": "Club de playa en Acapulco (Mx)",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Oficinas ATM",
+          "subtitle2": "Oficinas portuarias con contenedores (Mx)",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Mercado La Purísima",
+          "subtitle3": "Nuevo mercado público (Mx)",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "La Marquesa",
+          "subtitle4": "Renovación de cortijo en Andalucía (Es)",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2l"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/x10-1-600x592.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/6-600x349.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bandada-studio-ivan-valero-1402-57-600x899.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/port-1-600x900.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Kassandra Beach House",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Oficinas ATM",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Mercado La Purísima",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "La Marquesa",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2m"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#353434",
+            "fontSize": "0.65",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFICINA</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">&gt; Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">&gt; Reconocimientos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\" aria-expanded=\"false\">&gt; Contacto</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROYECTOS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">&gt; Arquitectura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">&gt; Diseño interior</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\" aria-expanded=\"false\">&gt; Diseño Urbano</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\" aria-expanded=\"false\">&gt; Proyectos Efímeros</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">NOTICIAS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Tema"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1b1b1b"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2d2c2c!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#353434"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            "A": {
+              "font-size": "11px"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">bandada! studio</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2d"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#c1c1c1",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -2292,10 +2279,10 @@
               "link": "",
               "size": "40",
               "active": true,
-              "color": "#ffffff"
+              "color": "#2d2b2b"
             }
           },
-          "text1": "<strong><br></strong><b>Redes sociales</b><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\">Facebook&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\">Instagram</a><br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\">Twitter</a>",
+          "text1": "<strong><br></strong><b>Redes sociales</b><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -2307,19 +2294,21 @@
               "text-align": "left",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "12px"
+              "font-size": "12px",
+              "color": "#353434"
             },
             "B": {
-              "font-size": "15px"
+              "font-size": "13px",
+              "color": "#000000"
             },
             "STRONG": {
-              "color": "#ffffff",
+              "color": "#353434",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "15px"
+              "font-size": "13px"
             }
           },
-          "_anchor": "contacts1-1w"
+          "_anchor": "contacts1-2e"
         },
         {
           "_params": {
@@ -2329,17 +2318,25 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2d2b2b",
+            "bgColor": "#353434",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-</b>&nbsp;<i><a href=\"page5.html\" style=\"font-weight: bold;\">Aviso legal</a><b>&nbsp;-</b></i>",
+          "text": "© 2012 -2018 &nbsp; &nbsp; bandada! studio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<i><a href=\"page5.html\" class=\"text-primary\">Aviso legal</a>&nbsp;-</i>",
           "_tags": [
             "Tema"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-1x"
+          "_styles": {
+            "I": {
+              "font-size": "8px"
+            },
+            "P": {
+              "font-size": "10px"
+            }
+          },
+          "_anchor": "footer1-2f"
         }
       ]
     }
