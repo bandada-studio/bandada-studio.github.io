@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-16_1716",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -349,7 +349,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#f7da64",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -365,12 +365,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "10",
+              "size": "40",
               "active": true,
               "color": "#2d2b2b"
             }
           },
-          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
+          "text1": "<b>Redes sociales</b><br><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -627,7 +627,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#f7da64",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -643,12 +643,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "10",
+              "size": "40",
               "active": true,
               "color": "#2d2b2b"
             }
           },
-          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
+          "text1": "<b>Redes sociales</b><br><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -1040,7 +1040,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#f7da64",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -1056,12 +1056,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "10",
+              "size": "40",
               "active": true,
               "color": "#2d2b2b"
             }
           },
-          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
+          "text1": "<b>Redes sociales</b><br><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -1454,7 +1454,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#f7da64",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -1470,12 +1470,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "10",
+              "size": "40",
               "active": true,
               "color": "#2d2b2b"
             }
           },
-          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
+          "text1": "<b>Redes sociales</b><br><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -1689,7 +1689,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#f7da64",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -1705,12 +1705,12 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "link": "",
-              "size": "10",
+              "size": "40",
               "active": true,
               "color": "#2d2b2b"
             }
           },
-          "text1": "<br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
+          "text1": "<b>Redes sociales</b><br><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
@@ -2261,7 +2261,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
+            "bgColor": "#f7da64",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
@@ -2282,7 +2282,7 @@
               "color": "#2d2b2b"
             }
           },
-          "text1": "<strong><br></strong><b>Redes sociales</b><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
+          "text1": "<b>Redes sociales</b><br><br><a href=\"http://www.facebook.com/bandada.studio\" target=\"_blank\" class=\"text-black\">Facebook &gt;&gt;&nbsp;</a><br><a href=\"http://www.instagram.com/bandadastudio/\" target=\"_blank\" class=\"text-black\">Instagram</a>&nbsp;&gt;&gt;<br><a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-black\">Twitter</a>&nbsp;&gt;&gt;<a href=\"http://twitter.com/bandada_studio\" target=\"_blank\" class=\"text-warning\"><br></a>",
           "text2": "<strong>España</strong><br>Médico Pedro Herrero 13, 1ºD, 03006 Alicante. Comunidad Valenciana<br>(+34) 616 29 73 40",
           "text3": "<strong>México</strong><br>Zacatecas 95, colonia Roma Norte, 06700 Cuauhtémoc. Ciudad de México<br>(+52) 55 2343 5840",
           "_tags": [
