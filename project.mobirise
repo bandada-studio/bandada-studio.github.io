@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Bandada",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -39,7 +39,7 @@
     "noImageResize": "",
     "siteFonts": [],
     "cookiesAlert": "",
-    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
@@ -316,8 +316,9 @@
               "src": "@PROJECT_PATH@/assets/images/untitled-4-241x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -426,7 +427,7 @@
         {
           "_params": {
             "showTitle": true,
-            "showSubTitle": false,
+            "showSubTitle": true,
             "labelsColor": "#ffffff",
             "paddingTop": "4",
             "paddingBottom": "4",
@@ -440,7 +441,7 @@
             "overlayOpacity": "0.5"
           },
           "title": "Escríbenos",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "subtitle": "<span style=\"font-style: normal;\">Y recuerda que tus datos estarán protegidos por nuestra </span><a href=\"page5.html\">política de privacidad</a>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
           "form": {
             "action": "ivan.valero@bandada-studio.com",
@@ -481,6 +482,15 @@
             ".mbr-section-title": {
               "color": "#ffffff",
               "text-align": "center"
+            },
+            "SMALL": {
+              "color": "#ffffff",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SPAN": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           }
         },
@@ -567,8 +577,9 @@
               "src": "@PROJECT_PATH@/assets/images/untitled-4-241x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -791,8 +802,9 @@
               "src": "@PROJECT_PATH@/assets/images/untitled-4-241x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1171,8 +1183,9 @@
               "src": "@PROJECT_PATH@/assets/images/untitled-4-241x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1660,8 +1673,9 @@
               "src": "@PROJECT_PATH@/assets/images/untitled-4-241x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2403,8 +2417,9 @@
               "src": "@PROJECT_PATH@/assets/images/untitled-4-241x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3202,8 +3217,9 @@
               "src": "@PROJECT_PATH@/assets/images/untitled-4-241x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",

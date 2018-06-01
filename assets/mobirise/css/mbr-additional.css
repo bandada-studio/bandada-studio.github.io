@@ -512,12 +512,21 @@ h6,
 
 
 
+
+
 #form1-11 .form-control-label {
   color: #ffffff;
 }
 #form1-11 .mbr-section-title {
   color: #ffffff;
   text-align: center;
+}
+#form1-11 SMALL {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+#form1-11 SPAN {
+  font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-s .hide-buttons .nav-btn {
   display: none !important;
